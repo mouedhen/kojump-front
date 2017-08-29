@@ -1,4 +1,4 @@
-const $ = require('jquery');
+import $ from 'jquery'
 
 import UIkit from 'uikit'
 import TextRotate from './text-rotate'
@@ -43,35 +43,7 @@ window.onload = function () {
         placesAutoComplete.on('change', function(e) { console.log(e.suggestion) });
     });
 
-    /**
-     * Slick hero carousel
-     */
-    import('slick-carousel').then(() => {
-        $('.hero-slider').slick({
-            dots: true,
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            arrows: false,
-            autoplay: true,
-            autoplaySpeed: 4000,
-            fade: true,
-            cssEase: 'linear',
-            pauseOnHover: false
-        })
-    });
-
-    /**
-     * Hero text rotor
-     */
-    let elements = document.getElementsByClassName('txt-rotate');
-    for (let i = 0; i < elements.length; i++) {
-        let toRotate = elements[i].getAttribute('data-rotate');
-        let period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-            new TextRotate(elements[i], JSON.parse(toRotate), period);
-        }
-    }
-
+    require('./hero-slider');
+    require('./hero-text-rotate');
     require('./sport-autocomplete')
 };

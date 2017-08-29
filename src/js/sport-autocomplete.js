@@ -1,5 +1,3 @@
-'use strict';
-
 import $ from 'jquery'
 import ACTIVITIES_API_URI from './config'
 

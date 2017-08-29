@@ -1,3 +1,10 @@
 # IDE metadata
 /.idea/
 
+# Node modules
+/node_modules/
+
+# Generated webpack files
+/public/assets/*.js
+/public/assets/*.css
+/public/assets/*.json

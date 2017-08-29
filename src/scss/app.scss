@@ -1,0 +1,167 @@
+@import "~uikit/src/scss/variables-theme.scss";
+@import "~uikit/src/scss/mixins-theme.scss";
+@import "~uikit/src/scss/uikit-theme.scss";
+
+html, body {
+  height: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.uk-offcanvas-bar {
+  background: #f8f8f8;
+  a {
+    color: #999999 !important;
+  }
+}
+
+#address-input {
+  width: 250px;
+}
+
+.black-separator {
+  width: 100%;
+  height: 10px;
+  background: #222222;
+}
+
+/* algolia plugin footer */
+.ap-footer {
+  display: none;
+}
+
+.button-orange {
+  background: #ff4e00;
+  color: #f2f2f2;
+  &:hover, &::selection {
+    background: #fd7134;
+    color: #f2f2f2;
+  }
+}
+
+.navbar {
+  @extend .uk-navbar-container;
+  @extend .uk-box-shadow-medium;
+  .navbar-logo {
+    height: 70%;
+  }
+}
+
+.hero {
+  min-height: calc(100vh - 80px);
+  .slide {
+    height: calc(100vh - 80px);
+    filter: contrast(1.1) saturate(1.2) brightness(.9);
+  }
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #666
+  }
+  .hero-text {
+    bottom: 17vh;
+    right: 0;
+    left: 0;
+    h1 {
+      color: #f2f2f2;
+    }
+  }
+  .hero-btn {
+    bottom: 5vh;
+    right: 0;
+    left: 0
+  }
+  .slick-dots {
+    bottom: 10px;
+  }
+  .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+  .slick-dots li button:before {
+    color: #f2f2f2;
+  }
+}
+
+.card-container {
+  @extend .uk-background-muted;
+  .card-grid {
+    @extend .uk-grid-small;
+    margin: 30px 0 !important;
+    .card-element {
+      h3 {
+        margin-bottom: 10px;
+        a {
+          color: #ff4e00;
+          &:hover, &::selection {
+            color: #fd7134;
+          }
+        }
+      }
+      p {
+        margin-top: 10px;
+        font-size: .9rem;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+.spinner-container {
+  @extend .uk-background-muted;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #db4437;
+}
+
+footer {
+  background: #222222;
+  a {
+    color: #9e9e9e;
+    &:hover {
+      color: #f2f2f2;
+    }
+  }
+  .twitter-icon {
+    color: #1da1f2;
+  }
+  .facebook-icon {
+    color: #3b5998;
+  }
+  .google-icon {
+    color: #db4437;
+  }
+}
+
+.copyright {
+  background: #000000;
+  .container {
+    padding: 5px 10%;
+    p, a, span {
+      margin: 0;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    a {
+      color: #e5e50c;
+    }
+    p {
+      color: #f2f2f2;
+    }
+  }
+}
+
+// Login page
+.centred-container {
+  @extend .uk-flex;
+  @extend .uk-flex-center;
+  @extend .uk-flex-middle;
+  @extend .uk-background-muted;
+  min-height: calc(100vh - 80px);
+}
+
+.link {
+  text-transform: lowercase;
+  font-size: .9rem;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Kojump | Mot de passe oublié</title>
+
+    <link rel="stylesheet" href="assets/app.bundle.css">
+</head>
+<body>
+
+<!-- navbar -->
+<div uk-sticky="sel-target: .navbar; cls-active: uk-navbar-sticky">
+    <nav class="navbar" uk-navbar>
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="javascript:void(0)">
+                <img class="uk-margin-small navbar-logo" src="assets/img/kojump/kojump_logo.png" alt="KoJump">
+            </a>
+        </div>
+        <div class="uk-navbar-right uk-hidden@s">
+            <a class="uk-navbar-toggle" href="#offcanvas-nav" uk-toggle><span uk-navbar-toggle-icon></span></a>
+        </div>
+        <div class="uk-navbar-right uk-visible@s">
+            <ul class="uk-navbar-nav">
+                <li class="uk-navbar-item">
+                    <input class="uk-input uk-form-width-medium" type="search" id="address-input" placeholder="Rechercher un lieu..."/>
+                </li>
+                <li class="uk-navbar-item">
+                    <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span> Mon compte</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: sign-in"></span>Se connecter</a></li>
+                            <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: file-edit"></span>S'inscrire</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-parent"><a href="#">Compte</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: sign-in"></span>Se connecter</a></li>
+                        <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: file-edit"></span>S'inscrire</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- /navbar -->
+
+<div class="centred-container">
+    <div class="uk-card uk-card-default uk-card-hover uk-width-1-2@m uk-margin-top uk-margin-bottom">
+        <div class="uk-card-header">
+            <h2 class="uk-card-title uk-margin-remove-bottom">Mot de passe oublié</h2>
+            <div class="uk-alert-success" uk-alert>
+                <a class="uk-alert-close" uk-close></a>
+                <p>Un e-mail vous a été envoyé avec la procédure à suivre.</p>
+            </div>
+
+            <div class="uk-alert-danger" uk-alert>
+                <a class="uk-alert-close" uk-close></a>
+                <p>Veuillez vérifier l'adresse e-mail saisie.</p>
+            </div>
+        </div>
+        <div class="uk-card-body">
+            <form>
+                <div class="uk-margin">
+                    <input class="uk-input" type="text" placeholder="votre nom">
+                </div>
+
+                <div class="uk-margin">
+                    <input class="uk-input" type="email" placeholder="votre adresse e-mail">
+                </div>
+
+                <div class="uk-margin">
+                    <textarea class="uk-textarea" rows="5" placeholder="votre message"></textarea>
+                </div>
+
+                <div class="uk-margin-top">
+                    <input class="uk-button button-orange" type="submit" value="envoyer">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="uk-container">
+        <div class="uk-child-width-1-5@m uk-child-width-1-3@s uk-padding" uk-grid>
+            <div><a>A propos</a></div>
+            <div><a>Mentions légales</a></div>
+            <div><a>Contactez-nous</a></div>
+            <div><a>Confidentialité & Cookies</a></div>
+
+            <div>
+                <a href="" class="uk-icon-button uk-margin-small-right twitter-icon" uk-icon="icon: twitter"></a>
+                <a href="" class="uk-icon-button  uk-margin-small-right facebook-icon" uk-icon="icon: facebook"></a>
+                <a href="" class="uk-icon-button google-icon" uk-icon="icon: google-plus"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright">
+    <div class="container">
+        <p>&copy; 2017
+            <span class="brand"><a target="_blank" href="http://selenkeys.com/" rel="noopener">SELEN KEYS</a></span>
+            Tous droits réservés.
+        </p>
+    </div>
+</div>
+<!-- /footer -->
+<script src="assets/app.bundle.js"></script>
+</body>

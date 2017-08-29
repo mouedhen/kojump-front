@@ -1,6 +1,8 @@
-import $ from 'jquery'
+const $ = require('jquery');
+
 import UIkit from 'uikit'
 import TextRotate from './text-rotate'
+
 //import waypoint from 'waypoints/lib/noframework.waypoints';
 //import Infinite from 'waypoints/lib/shortcuts/infinite';
 
@@ -70,4 +72,6 @@ window.onload = function () {
             new TextRotate(elements[i], JSON.parse(toRotate), period);
         }
     }
+
+    require('./sport-autocomplete')
 };

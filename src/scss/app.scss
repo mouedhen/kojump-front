@@ -165,3 +165,18 @@ footer {
   text-transform: lowercase;
   font-size: .9rem;
 }
+
+.ui-menu {
+  background: #f8f8f8;
+  list-style-type: none;
+  width: 80%;
+  padding: 0;
+  li {
+    margin: 10px;
+    background: #f8f8f8;
+    &:hover {
+      background: #ff4e00;
+      color: #f8f8f8;
+    }
+  }
+}

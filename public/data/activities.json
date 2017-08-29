@@ -1,0 +1,714 @@
+[
+  {
+    "model": "equipments.activity",
+    "pk": 4,
+    "fields": {
+      "label": "Aikido, Aikibudo, & Budo",
+      "slug": "aikido-aikibudo-budo"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 5,
+    "fields": {
+      "label": "Athlétisme",
+      "slug": "athletisme"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 89,
+    "fields": {
+      "label": "Autres",
+      "slug": "autres"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 6,
+    "fields": {
+      "label": "Aviron",
+      "slug": "aviron"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 1,
+    "fields": {
+      "label": "Aéromodélisme",
+      "slug": "aeromodelisme"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 2,
+    "fields": {
+      "label": "Aéronautique",
+      "slug": "aeronautique"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 3,
+    "fields": {
+      "label": "Aérostation",
+      "slug": "aerostation"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 7,
+    "fields": {
+      "label": "Badminton",
+      "slug": "badminton"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 10,
+    "fields": {
+      "label": "Ball-Trap",
+      "slug": "ball-trap"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 9,
+    "fields": {
+      "label": "Ballon au poing",
+      "slug": "ballon-au-poing"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 8,
+    "fields": {
+      "label": "Baseball",
+      "slug": "baseball"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 11,
+    "fields": {
+      "label": "Basket-Ball",
+      "slug": "basket-ball"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 12,
+    "fields": {
+      "label": "Billard",
+      "slug": "billard"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 13,
+    "fields": {
+      "label": "Bowling et Sports de Quilles",
+      "slug": "bowling-et-sports-de-quilles"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 14,
+    "fields": {
+      "label": "Boxe",
+      "slug": "boxe"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 15,
+    "fields": {
+      "label": "Boxe Américaine",
+      "slug": "boxe-americaine"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 16,
+    "fields": {
+      "label": "Bridge",
+      "slug": "bridge"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 17,
+    "fields": {
+      "label": "Canoe-Kayak",
+      "slug": "canoe-kayak"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 18,
+    "fields": {
+      "label": "Char à Voile",
+      "slug": "char-a-voile"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 19,
+    "fields": {
+      "label": "Course Camarguaise",
+      "slug": "course-camarguaise"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 21,
+    "fields": {
+      "label": "Course Landaise",
+      "slug": "course-landaise"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 20,
+    "fields": {
+      "label": "Course d’orientation",
+      "slug": "course-dorientation"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 22,
+    "fields": {
+      "label": "Cyclisme",
+      "slug": "cyclisme"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 23,
+    "fields": {
+      "label": "Cyclotourisme",
+      "slug": "cyclotourisme"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 24,
+    "fields": {
+      "label": "Danse",
+      "slug": "danse"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 25,
+    "fields": {
+      "label": "Echecs",
+      "slug": "echecs"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 26,
+    "fields": {
+      "label": "Equitation",
+      "slug": "equitation"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 27,
+    "fields": {
+      "label": "Escrime",
+      "slug": "escrime"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 28,
+    "fields": {
+      "label": "Etudes & Sports Sous Marins",
+      "slug": "etudes-sports-sous-marins"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 29,
+    "fields": {
+      "label": "Football",
+      "slug": "football"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 30,
+    "fields": {
+      "label": "Football Américan",
+      "slug": "football-american"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 31,
+    "fields": {
+      "label": "Full Contact et Disciplines Associées",
+      "slug": "full-contact-et-disciplines-associees"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 32,
+    "fields": {
+      "label": "Giraviation",
+      "slug": "giraviation"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 33,
+    "fields": {
+      "label": "Golf",
+      "slug": "golf"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 34,
+    "fields": {
+      "label": "Gymnastique",
+      "slug": "gymnastique"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 35,
+    "fields": {
+      "label": "Gymnastique volontaire",
+      "slug": "gymnastique-volontaire"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 36,
+    "fields": {
+      "label": "Halterophilie, Musculation, Force athlétique et Culturisme",
+      "slug": "halterophilie-musculation-force-athletique-et-culturisme"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 37,
+    "fields": {
+      "label": "Handball",
+      "slug": "handball"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 38,
+    "fields": {
+      "label": "Hockey",
+      "slug": "hockey"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 39,
+    "fields": {
+      "label": "Javelot tir sur cible",
+      "slug": "javelot-tir-sur-cible"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 40,
+    "fields": {
+      "label": "Jeu de balle au tambourin",
+      "slug": "jeu-de-balle-au-tambourin"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 41,
+    "fields": {
+      "label": "Jeu de paume",
+      "slug": "jeu-de-paume"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 42,
+    "fields": {
+      "label": "Joutes et sauvetage nautique",
+      "slug": "joutes-et-sauvetage-nautique"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 43,
+    "fields": {
+      "label": "Judo-jujitsu, kendo et disciplines associées",
+      "slug": "judo-jujitsu-kendo-et-disciplines-associees"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 44,
+    "fields": {
+      "label": "Karaté et arts martiaux et affinitaires",
+      "slug": "karate-et-arts-martiaux-et-affinitaires"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 45,
+    "fields": {
+      "label": "Kick boxing et disciplines associées",
+      "slug": "kick-boxing-et-disciplines-associees"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 46,
+    "fields": {
+      "label": "Longue paume",
+      "slug": "longue-paume"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 47,
+    "fields": {
+      "label": "Lutte",
+      "slug": "lutte"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 50,
+    "fields": {
+      "label": "Matonautique",
+      "slug": "matonautique"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 51,
+    "fields": {
+      "label": "Maythai et disciplines associées",
+      "slug": "maythai-et-disciplines-associees"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 48,
+    "fields": {
+      "label": "Montagne – Escalade",
+      "slug": "montagne-escalade"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 49,
+    "fields": {
+      "label": "Motocyclisme",
+      "slug": "motocyclisme"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 52,
+    "fields": {
+      "label": "Natation",
+      "slug": "natation"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 53,
+    "fields": {
+      "label": "Padle",
+      "slug": "padle"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 54,
+    "fields": {
+      "label": "Parachutisme",
+      "slug": "parachutisme"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 59,
+    "fields": {
+      "label": "Pelote basque",
+      "slug": "pelote-basque"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 58,
+    "fields": {
+      "label": "Pentathlon moderne",
+      "slug": "pentathlon-moderne"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 61,
+    "fields": {
+      "label": "Planeur ULM",
+      "slug": "planeur-ulm"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 60,
+    "fields": {
+      "label": "Pétanque et jeux provençaux",
+      "slug": "petanque-et-jeux-provencaux"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 55,
+    "fields": {
+      "label": "Pêche au coup",
+      "slug": "peche-au-coup"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 56,
+    "fields": {
+      "label": "Pêche en mer",
+      "slug": "peche-en-mer"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 57,
+    "fields": {
+      "label": "Pêche sportive à la mouche",
+      "slug": "peche-sportive-a-la-mouche"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 62,
+    "fields": {
+      "label": "Randonnée pédestre",
+      "slug": "randonnee-pedestre"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 63,
+    "fields": {
+      "label": "Roller Skating",
+      "slug": "roller-skating"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 64,
+    "fields": {
+      "label": "Rugby",
+      "slug": "rugby"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 65,
+    "fields": {
+      "label": "Rugby à XIII",
+      "slug": "rugby-a-xiii"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 67,
+    "fields": {
+      "label": "Sauvetage – Secourisme",
+      "slug": "sauvetage-secourisme"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 66,
+    "fields": {
+      "label": "Savate, boxe française et disciplines associées",
+      "slug": "savate-boxe-francaise-et-disciplines-associees"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 68,
+    "fields": {
+      "label": "Ski",
+      "slug": "ski"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 69,
+    "fields": {
+      "label": "Ski nautique",
+      "slug": "ski-nautique"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 71,
+    "fields": {
+      "label": "Sport automobile",
+      "slug": "sport-automobile"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 72,
+    "fields": {
+      "label": "Sports boule",
+      "slug": "sports-boule"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 73,
+    "fields": {
+      "label": "Sports de glace",
+      "slug": "sports-de-glace"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 74,
+    "fields": {
+      "label": "Sports traîneau et ski pulka",
+      "slug": "sports-traineau-et-ski-pulka"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 70,
+    "fields": {
+      "label": "Spéléologie",
+      "slug": "speleologie"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 75,
+    "fields": {
+      "label": "Squash",
+      "slug": "squash"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 76,
+    "fields": {
+      "label": "Surf",
+      "slug": "surf"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 77,
+    "fields": {
+      "label": "Taekwondo et disciplines associées",
+      "slug": "taekwondo-et-disciplines-associees"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 78,
+    "fields": {
+      "label": "Tai chi chuan et chi gong",
+      "slug": "tai-chi-chuan-et-chi-gong"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 79,
+    "fields": {
+      "label": "Tennis",
+      "slug": "tennis"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 80,
+    "fields": {
+      "label": "Tennis de table",
+      "slug": "tennis-de-table"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 81,
+    "fields": {
+      "label": "Tir",
+      "slug": "tir"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 82,
+    "fields": {
+      "label": "Tir à l’arc",
+      "slug": "tir-a-larc"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 83,
+    "fields": {
+      "label": "Triathlon",
+      "slug": "triathlon"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 84,
+    "fields": {
+      "label": "Twirling baton",
+      "slug": "twirling-baton"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 85,
+    "fields": {
+      "label": "Voile",
+      "slug": "voile"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 87,
+    "fields": {
+      "label": "Vol libre",
+      "slug": "vol-libre"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 86,
+    "fields": {
+      "label": "Vol à voile",
+      "slug": "vol-a-voile"
+    }
+  },
+  {
+    "model": "equipments.activity",
+    "pk": 88,
+    "fields": {
+      "label": "Volley-ball",
+      "slug": "volley-ball"
+    }
+  }
+]

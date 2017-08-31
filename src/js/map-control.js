@@ -1,6 +1,6 @@
 import isElementVisible from './helpers'
 
-class MapControl {
+export default class MapControl {
 
     constructor (mapControlEl, mapElContainer, elContainer, mapContainer, toggleElementsControl, toggleMapControl) {
         this.mapControlEl = mapControlEl;
@@ -71,14 +71,3 @@ class MapControl {
         })
     }
 }
-
-let control = new MapControl(
-    document.getElementById('map-control'),
-    document.getElementById('map-elements-container'),
-    document.getElementById('map-elements'),
-    document.getElementById('map-container'),
-    document.getElementById('toggle-elements'),
-    document.getElementById('toggle-map')
-);
-
-control.render('map-elements', 'bottom-scroll-spy');

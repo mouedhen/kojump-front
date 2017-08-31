@@ -1,7 +1,5 @@
-import $ from 'jquery'
-
 import UIkit from 'uikit'
-// import MapControl from './map-control'
+
 //import waypoint from 'waypoints/lib/noframework.waypoints';
 //import Infinite from 'waypoints/lib/shortcuts/infinite';
 
@@ -17,21 +15,11 @@ import UIkit from 'uikit'
 //         $('.infinite-more-link').hide();
 //     }
 // });
-
-// TODO add lazy loading capability with router
-
-window.onload = function () {
-
-    /**
-     * UIKit icons
-     */
+window.addEventListener('load', function () {
     import('uikit/dist/js/uikit-icons').then((Icons) => {
         UIkit.use(Icons);
     });
 
-    /**
-     * Places widget
-     */
     import('places.js').then((places) => {
         let placesAutoComplete = places({
             container: document.querySelector('#address-input'),
@@ -63,4 +51,4 @@ window.onload = function () {
             control.render('map-elements', 'bottom-scroll-spy');
         })
     }
-};
+});

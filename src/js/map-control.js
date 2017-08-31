@@ -11,24 +11,22 @@ export default class MapControl {
         this.toggleMapControl = toggleMapControl;
     }
 
+
+
     render (topScrollSpyId, bottomScrollSpyId) {
         if (window.screen.availWidth < 500) {
             this.showOnlyElements();
         }
-        let that = this;
-        document.addEventListener('scroll', function () {
-            if (isElementVisible(topScrollSpyId)) {
-                if (isElementVisible(bottomScrollSpyId)) {
-                    that.mapControlEl.style.display = 'none'
-                } else {
-                    that.mapControlEl.style.display = 'block'
-                }
-            } else {
-                that.mapControlEl.style.display = 'none'
-            }
-        });
+        this.showControl(topScrollSpyId, bottomScrollSpyId);
+        this.attachEvents(topScrollSpyId, bottomScrollSpyId);
         this.addClickEventShowMap();
         this.addClickEventHideMap();
+    }
+
+    attachEvents (topScrollSpyId, bottomScrollSpyId) {
+        this.addScrollEventListener(topScrollSpyId, bottomScrollSpyId);
+        this.addClickEventHideMap();
+        this.addClickEventShowMap();
     }
 
     showOnlyElements () {
@@ -53,6 +51,25 @@ export default class MapControl {
         this.toggleMapControl.style.display = 'none';
         this.toggleElementsControl.style.display = 'block';
         this.mapControlEl.style.left = '57%';
+    }
+
+    showControl (topScrollSpyId, bottomScrollSpyId) {
+        if (isElementVisible(topScrollSpyId)) {
+            if (isElementVisible(bottomScrollSpyId)) {
+                this.mapControlEl.style.display = 'none'
+            } else {
+                this.mapControlEl.style.display = 'block'
+            }
+        } else {
+            this.mapControlEl.style.display = 'none'
+        }
+    }
+
+    addScrollEventListener (topScrollSpyId, bottomScrollSpyId) {
+        let that = this;
+        document.addEventListener('scroll', function () {
+            that.showControl(topScrollSpyId, bottomScrollSpyId)
+        });
     }
 
     addClickEventHideMap () {

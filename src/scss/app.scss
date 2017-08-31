@@ -180,3 +180,47 @@ footer {
     }
   }
 }
+
+.details-hero {
+  height: 50vh;
+}
+
+.elements-details {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.map-elements {
+  min-height: calc(100vh - 80px);
+  margin: 20px 0 !important;
+}
+
+.map-elements-container {
+  padding-right: 15px;
+}
+
+.map-container {
+  padding: 0;
+}
+
+.visibleDiv, #map-control {
+  position: fixed;
+  vertical-align: middle;
+  background: #ff4e00;
+  color: #f8f8f8;
+  text-align: center;
+}
+
+#map-control {
+  bottom: 10px;
+  left: 57%;
+  transform: translateX(-43%);
+  display: none;
+  z-index: 1000;
+  #toggle-map, #toggle-elements {
+    color: #f8f8f8;
+  }
+  #toggle-map {
+    display: none;
+  }
+}

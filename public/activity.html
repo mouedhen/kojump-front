@@ -1,0 +1,212 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Kojump | {{ activity.label }}</title>
+
+    <link rel="stylesheet" href="assets/app.bundle.css">
+</head>
+<body>
+<!-- navbar -->
+<div uk-sticky="sel-target: .navbar; cls-active: uk-navbar-sticky">
+    <nav class="navbar" uk-navbar>
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="javascript:void(0)">
+                <img class="uk-margin-small navbar-logo" src="assets/img/kojump/kojump_logo.png" alt="KoJump">
+            </a>
+        </div>
+        <div class="uk-navbar-right uk-hidden@s">
+            <a class="uk-navbar-toggle" href="#offcanvas-nav" uk-toggle><span uk-navbar-toggle-icon></span></a>
+        </div>
+        <div class="uk-navbar-right uk-visible@s">
+            <ul class="uk-navbar-nav">
+                <li class="uk-navbar-item">
+                    <input class="uk-input uk-form-width-medium" type="search" id="address-input" placeholder="Rechercher un lieu..."/>
+                </li>
+                <li class="uk-navbar-item">
+                    <a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span> Mon compte</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: sign-in"></span>Se connecter</a></li>
+                            <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: file-edit"></span>S'inscrire</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-parent"><a href="#">Compte</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: sign-in"></span>Se connecter</a></li>
+                        <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: file-edit"></span>S'inscrire</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- /navbar -->
+
+<header class="uk-background-cover uk-height-medium uk-panel uk-flex uk-flex-center uk-flex-middle details-hero"
+     style="background-image: url('assets/img/placeholder@l.png')">
+    <div class="uk-overlay uk-light uk-position-bottom uk-container">
+        <h1 class="uk-article-title">{{ activity.label }}</h1>
+    </div>
+</header>
+
+<section class="uk-container elements-details">
+    <article class="uk-article">
+        <h2>Description</h2>
+        <p class="uk-text-justify">{{ activity.description }}</p>
+        <h3>Disciplines sportives</h3>
+
+        <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+            <label><input class="uk-checkbox" type="checkbox" checked> Patinage artistique et danse sur roulettes</label>
+            <label><input class="uk-checkbox" type="checkbox"> Patinage de course</label>
+            <label><input class="uk-checkbox" type="checkbox"> Patinage acrobatique</label>
+            <label><input class="uk-checkbox" type="checkbox"> Hockey sur patins en ligne / Hockey sur patins</label>
+            <label><input class="uk-checkbox" type="checkbox"> Planche à roulettes (Skate)</label>
+            <label><input class="uk-checkbox" type="checkbox"> Randonnée Roller</label>
+            <label><input class="uk-checkbox" type="checkbox"> Roller skating (Autres)</label>
+        </div>
+        <button class="uk-button uk-button-default">Filtrer</button>
+    </article>
+</section>
+
+<div class="black-separator"></div>
+
+<div class="uk-child-width-1-5 uk-grid-small uk-background-muted" data-sticky-container uk-grid>
+    <div class="uk-container uk-width-3-5 map-elements-container" id="map-elements-container">
+        <div class="uk-child-width-1-2@m uk-grid-small map-elements" id="map-elements" uk-grid>
+            <div class="uk-width-1-1">
+                <input class="uk-input" type="text" placeholder="filtrer">
+            </div>
+            <!-- -->
+            <div class="card-element infinite-item">
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-media-top">
+                        <img src="assets/img/placeholder.png" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title"><a>Card Top</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-element infinite-item">
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-media-top">
+                        <img src="assets/img/placeholder.png" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title"><a>Card Top</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-element infinite-item">
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-media-top">
+                        <img src="assets/img/placeholder.png" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title"><a>Card Top</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-element infinite-item">
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-media-top">
+                        <img src="assets/img/placeholder.png" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title"><a>Card Top</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-element infinite-item">
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-media-top">
+                        <img src="assets/img/placeholder.png" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title"><a>Card Top</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-element infinite-item">
+                <div class="uk-card uk-card-default uk-card-hover">
+                    <div class="uk-card-media-top">
+                        <img src="assets/img/placeholder.png" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title"><a>Card Top</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- -->
+        </div>
+    </div>
+    <div class="uk-width-2-5 map-container" id="map-container" style="height: calc(100% - 80px)" data-sticky data-margin-top="80">
+        <div id='map' style="height: 100%"></div>
+    </div>
+</div>
+
+<div id="map-control">
+    <a href="#" class="uk-icon-link" uk-icon="icon: chevron-right; ratio: 1.5" id="toggle-elements"></a>
+    <a href="#" class="uk-icon-link" uk-icon="icon: chevron-left; ratio: 1.5" id="toggle-map"></a>
+</div>
+
+<script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+<script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoibW91ZWRoZW4iLCJhIjoiY2o1b25ibHdvMDFrbTJxcXRtaWttZ3VqcCJ9.D5l-yqWthlUroyn5GFoY2w';
+    var map = L.mapbox.map('map', 'mapbox.streets')
+        .setView([40, -74.50], 9);
+</script>
+
+<div class="black-separator" id="bottom-scroll-spy"></div>
+
+<footer>
+    <div class="uk-container">
+        <div class="uk-child-width-1-5@m uk-child-width-1-3@s uk-padding" uk-grid>
+            <div><a>A propos</a></div>
+            <div><a>Mentions légales</a></div>
+            <div><a>Contactez-nous</a></div>
+            <div><a>Confidentialité & Cookies</a></div>
+
+            <div>
+                <a href="" class="uk-icon-button uk-margin-small-right twitter-icon" uk-icon="icon: twitter"></a>
+                <a href="" class="uk-icon-button  uk-margin-small-right facebook-icon" uk-icon="icon: facebook"></a>
+                <a href="" class="uk-icon-button google-icon" uk-icon="icon: google-plus"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="copyright">
+    <div class="container">
+        <p>&copy; 2017
+            <span class="brand"><a target="_blank" href="http://selenkeys.com/" rel="noopener">SELEN KEYS</a></span>
+            Tous droits réservés.
+        </p>
+    </div>
+</div>
+<!-- /footer -->
+<script src="assets/app.bundle.js"></script>
+</body>

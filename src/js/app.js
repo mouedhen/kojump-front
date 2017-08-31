@@ -45,5 +45,7 @@ window.onload = function () {
 
     require('./hero-slider');
     require('./hero-text-rotate');
-    require('./sport-autocomplete')
+    require('./sport-autocomplete');
+    require('./sticky-map');
+    require('./map-control')
 };
